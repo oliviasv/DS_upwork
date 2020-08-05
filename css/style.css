@@ -38,5 +38,12 @@ nav .navbar-nav a:hover svg path {
 }
 
 .container-fluid {
+    margin-top: 10px;
     background: #FFF;
 }
+
+#sidebarMenu {
+    padding-left: 0;
+}
+
+#sidebarMenu a {}
