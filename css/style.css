@@ -1,0 +1,42 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #F6F6F6;
+}
+
+nav {
+    height: 70px;
+    background: #FFF;
+}
+
+nav .navbar-brand {
+    font-weight: 600 !important;
+    font-size: 2.5em !important;
+    color: #0E568C !important;
+}
+
+.navbar-toggler-icon svg {
+    fill: #AEAEAE !important;
+}
+
+
+nav .navbar-nav a {
+    font-size: 1em !important;
+    color: #AEAEAE !important;
+    font-weight: 500;
+}
+
+nav .navbar-nav a:hover {
+    color: #0E568C !important;
+}
+
+nav .navbar-nav a:hover svg path {
+    fill: #0E568C !important;
+}
+
+.navbar-nav .nav-item:nth-child(2) {
+    margin: auto 20px;
+}
+
+.container-fluid {
+    background: #FFF;
+}

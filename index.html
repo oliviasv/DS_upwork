@@ -5,14 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DS</title>
-
-    <link rel="stylesheet" href="./css/bootstrap.css">
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
 
+    <nav class="navbar navbar-light navbar-expand-md fixed-top shadow-sm">
+        <a class=" navbar-brand" href="#">DS</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M13.5599 14.0208C14.859 14.0208 16.1288 13.6356 17.2089 12.9139C18.289 12.1922 19.1309 11.1664 19.628 9.96623C20.1251 8.76609 20.2552 7.44548 20.0017 6.17142C19.7483 4.89735 19.1228 3.72704 18.2042 2.80849C17.2857 1.88994 16.1153 1.2644 14.8413 1.01097C13.5672 0.757543 12.2466 0.887611 11.0465 1.38473C9.84632 1.88184 8.82054 2.72368 8.09883 3.80378C7.37713 4.88389 6.99193 6.15374 6.99193 7.45277C6.99166 8.31537 7.16137 9.16956 7.49135 9.96654C7.82133 10.7635 8.30512 11.4877 8.91506 12.0976C9.52501 12.7076 10.2492 13.1914 11.0462 13.5213C11.8431 13.8513 12.6973 14.021 13.5599 14.0208ZM13.5599 17.3048C9.17593 17.3048 0.424927 19.5048 0.424927 23.8728V27.1568H26.6959V23.8728C26.6959 19.5048 17.9439 17.3048 13.5599 17.3048Z"
+                                fill="#AEAEAE" />
+                        </svg>
+                        User<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="32" height="28" viewBox="0 0 32 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M18.31 0.398926C14.7646 0.399192 11.3644 1.80766 8.85732 4.31456C6.35023 6.82146 4.94152 10.2215 4.94099 13.7669H0.484985L6.26299 19.5449L6.36299 19.7529L12.363 13.7669H7.91199C7.90045 11.3476 8.72887 8.99928 10.2559 7.12272C11.7829 5.24615 13.9138 3.95768 16.2849 3.47721C18.6561 2.99674 21.1205 3.35405 23.2575 4.48816C25.3946 5.62227 27.0718 7.46288 28.003 9.69584C28.9342 11.9288 29.0615 14.4157 28.3634 16.7321C27.6652 19.0486 26.1848 21.0509 24.1748 22.3974C22.1648 23.7439 19.7498 24.3511 17.3419 24.1154C14.9341 23.8797 12.6827 22.8157 10.972 21.1049L8.86299 23.2139C10.4172 24.7683 12.3308 25.9153 14.4342 26.5534C16.5376 27.1915 18.766 27.3009 20.9218 26.872C23.0776 26.4431 25.0944 25.4891 26.7934 24.0945C28.4925 22.7 29.8213 20.9078 30.6622 18.877C31.5031 16.8461 31.8302 14.6392 31.6144 12.4517C31.3986 10.2643 30.6466 8.16378 29.425 6.3364C28.2034 4.50902 26.55 3.01113 24.6112 1.97545C22.6724 0.939775 20.5081 0.398274 18.31 0.398926ZM16.825 7.82593V15.2529L23.185 19.0259L24.254 17.2259L19.054 14.1359V7.82593H16.825Z"
+                                fill="#AEAEAE" />
+                        </svg>
+                        History</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <svg width="25" height="28" viewBox="0 0 25 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.81508 24.571H3.44308V3.082H8.81508V0.395996H0.75708V27.257H8.81508V24.571Z"
+                                fill="#AEAEAE" />
+                            <path
+                                d="M14.5751 20.153L16.4821 18.246L13.3931 15.17H24.9321V12.484H13.3961L16.4851 9.41098L14.5751 7.50098L8.26514 13.827L14.5751 20.153Z"
+                                fill="#AEAEAE" />
+                        </svg>
+                        Sign out</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+        integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous">
+    </script>
     <script src="./js/main.js"></script>
 </body>
 

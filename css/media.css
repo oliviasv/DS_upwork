@@ -1,0 +1,5 @@
+@media only screen and (max-width: 768px) {
+    .navbar-nav .nav-item:nth-child(2) {
+        margin: 0;
+    }
+}
