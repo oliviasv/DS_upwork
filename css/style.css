@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background: #F6F6F6;
 }
 
 nav {
@@ -37,13 +36,49 @@ nav .navbar-nav a:hover svg path {
     margin: auto 20px;
 }
 
-.container-fluid {
+#body-row {
+    margin-left: 0;
+    margin-right: 0;
     margin-top: 10px;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    padding: 0;
+    background-color: #FFF !important;
+}
+
+.bg-light {
+    background: #FFF !important;
+}
+
+.sidebar-expanded {
+    width: 280px;
+}
+
+.sidebar-collapsed {
+    width: 60px;
+}
+
+#sidebar-container a {
+    height: 60px;
+    border: none !important;
+}
+
+.list-group-item {
+    border: none !important;
+}
+
+.sidebar-submenu {
+    font-size: 0.9rem;
+}
+
+.sidebar-submenu a,
+.sidebar-submenu .checkbox-item {
+    height: 45px !important;
+    padding-left: 30px;
+}
+
+.col {
     background: #FFF;
 }
-
-#sidebarMenu {
-    padding-left: 0;
-}
-
-#sidebarMenu a {}
