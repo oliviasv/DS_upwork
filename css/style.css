@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 nav {
@@ -43,12 +44,12 @@ nav .navbar-nav a:hover svg path {
 }
 
 #sidebar-container {
-    min-height: 100vh;
+    min-height: calc(100vh - 80px);
     padding: 0;
-    background-color: #FFF !important;
+    box-shadow: 5px 0 5px -5px #333 !important;
 }
 
-.bg-light {
+.row .bg-light {
     background: #FFF !important;
 }
 
@@ -60,9 +61,22 @@ nav .navbar-nav a:hover svg path {
     width: 60px;
 }
 
-#sidebar-container a {
+#sidebar-container .item {
     height: 60px;
     border: none !important;
+    color: #3E4756;
+    font-size: 1.2em;
+    font-weight: 500;
+    border-left: 4px solid transparent !important;
+}
+
+#sidebar-container .item:hover {
+    border-left: 4px solid #0096FB !important;
+    color: #0096FB;
+}
+
+#sidebar-container .item:hover svg path {
+    fill: #0096FB;
 }
 
 .list-group-item {
@@ -70,14 +84,74 @@ nav .navbar-nav a:hover svg path {
 }
 
 .sidebar-submenu {
-    font-size: 0.9rem;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.sidebar-submenu li small {
+    font-size: 0.9em;
+}
+
+.sidebar-submenu .bg-light {
+    background: #FBFBFB !important;
+}
+
+.sidebar-submenu a {
+    color: #717171;
 }
 
 .sidebar-submenu a,
 .sidebar-submenu .checkbox-item {
     height: 45px !important;
-    padding-left: 30px;
+    padding-left: 35px;
 }
+
+.sidebar-submenu .active {
+    color: #0096FB !important;
+}
+
+.sidebar-submenu .list-group-item {
+    height: 40px !important;
+}
+
+.check-1,
+.ckeck-number-1 {
+    color: #FE5937 !important;
+}
+
+.check-2,
+.ckeck-number-2 {
+    color: #FFA50E !important;
+}
+
+.check-3,
+.ckeck-number-3 {
+    color: #FCCA3F !important;
+}
+
+.check-4,
+.ckeck-number-4 {
+    color: #31C192 !important;
+}
+
+.button_collapse {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.button_collapse button {
+    align-self: flex-end;
+    outline: none;
+}
+
+.button_collapse button:hover {
+    background: transparent !important;
+}
+
+/* .rotate180 {
+    transform: rotateX(180deg);
+} */
 
 .col {
     background: #FFF;

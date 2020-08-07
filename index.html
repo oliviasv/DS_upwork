@@ -60,92 +60,112 @@
 
     <div class="container-fluid p-0">
 
-        <!-- Bootstrap row -->
         <div class="row" id="body-row">
-            <!-- Sidebar -->
-            <div id="sidebar-container" class="sidebar-expanded d-none d-md-block bg-light shadow-sm">
+
+            <div id="sidebar-container" class="sidebar-expanded bg-light position-relative border-right shadow-sm">
                 <!-- Conflict Check -->
                 <a href="#submenu1" data-toggle="collapse" aria-expanded="false"
-                    class="bg-light list-group-item list-group-item-action my-auto flex-column align-items-center">
+                    class="item bg-light list-group-item list-group-item-action my-auto flex-column align-items-center ">
                     <div class="d-flex w-100 justify-content-start align-items-center">
                         <svg width="17" height="19" viewBox="0 0 17 19" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M10.4108 2.812L9.99877 0.75H0.717773V18.281H2.77977V11.062H8.55477L8.96677 13.124H16.1858V2.812H10.4108Z"
                                 fill="#3E4756" />
                         </svg>
-                        <span class="menu-collapsed">Conflict Check</span>
+                        <span class="menu-collapsed">&nbsp;&nbsp;Conflict Check</span>
                         <span class="submenu-icon ml-auto"></span>
                     </div>
                 </a>
                 <!-- Submenu content -->
-                <div id='submenu1' class="collapse sidebar-submenu">
+                <div id='submenu1' class="collapse sidebar-submenu shadow-sm">
                     <ul class="list-group">
 
                         <li
-                            class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                            class="bg-light list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
                             <small>Content type</small>
                         </li>
 
                         <a href="#submenu1" data-toggle="collapse" aria-expanded="false"
-                            class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+                            class="bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start active">
                             <div class="d-flex w-100 justify-content-start align-items-center">
-                                <span class="menu-collapsed">Cases</span>
+                                <span class="">Cases</span>
                                 <span class="submenu-icon ml-auto"></span>
                             </div>
+                            <span>26</span>
                         </a>
 
                         <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
-                            class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+                            class="bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                             <div class="d-flex w-100 justify-content-start align-items-center">
-                                <span class="menu-collapsed">Trial Court Orders</span>
+                                <span class="menu-collapsed">Trial Course Orders</span>
                                 <span class="submenu-icon ml-auto"></span>
                             </div>
+                            <span>0</span>
                         </a>
 
-                        <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
-                            class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+                        <a href="#submenu3" data-toggle="collapse" aria-expanded="false"
+                            class="bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                             <div class="d-flex w-100 justify-content-start align-items-center">
                                 <span class="menu-collapsed">Statuses</span>
                                 <span class="submenu-icon ml-auto"></span>
                             </div>
+                            <span>1</span>
                         </a>
 
-                        <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
-                            class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+                        <a href="#submenu4" data-toggle="collapse" aria-expanded="false"
+                            class="bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                             <div class="d-flex w-100 justify-content-start align-items-center">
                                 <span class="menu-collapsed">Regulations</span>
                                 <span class="submenu-icon ml-auto"></span>
                             </div>
+                            <span>0</span>
                         </a>
 
-                        <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
-                            class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+                        <a href="#submenu5" data-toggle="collapse" aria-expanded="false"
+                            class="bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
                             <div class="d-flex w-100 justify-content-start align-items-center">
                                 <span class="menu-collapsed">All cited authority</span>
                                 <span class="submenu-icon ml-auto"></span>
                             </div>
+                            <span>27</span>
                         </a>
 
                         <li
-                            class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+                            class="bg-light list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
                             <small>KeyCIte warnings </small>
                         </li>
 
-                        <div class="checkbox-item bg-light list-group-item list-group-item-action align-items-start">
-                            <input type="checkbox" id="severely-negative" name="severely-negative">
-                            <label for="severely-negative">Severely Negative</label>
+                        <div
+                            class="checkbox-item bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                            <div class="check-1">
+                                <input type="checkbox" id="severely-negative" name="severely-negative">
+                                <label for="severely-negative">&nbsp;Severely Negative</label>
+                            </div>
+                            <span class="ckeck-number-1">3</span>
                         </div>
-                        <div class="checkbox-item bg-light list-group-item list-group-item-action align-items-start">
-                            <input type="checkbox" id="overruling-risk" name="overruling-risk">
-                            <label for="overruling-risk">Overruling risk</label>
+                        <div
+                            class="checkbox-item bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                            <div class="check-2">
+                                <input type="checkbox" id="overruling-risk" name="overruling-risk">
+                                <label for="overruling-risk">&nbsp;Overruling risk</label>
+                            </div>
+                            <span class="ckeck-number-2">0</span>
                         </div>
-                        <div class="checkbox-item bg-light list-group-item list-group-item-action align-items-start">
-                            <input type="checkbox" id="negative" name="negative">
-                            <label for="negative">Negative</label>
+                        <div
+                            class="checkbox-item bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                            <div class="check-3">
+                                <input type="checkbox" id="negative" name="negative">
+                                <label for="negative">&nbsp;Negative</label>
+                            </div>
+                            <span class="ckeck-number-3">23</span>
                         </div>
-                        <div class="checkbox-item bg-light list-group-item list-group-item-action align-items-start">
-                            <input type="checkbox" id="pending-appeal" name="pending-appeal">
-                            <label for="pending-appeal">Pending appeal</label>
+                        <div
+                            class="checkbox-item bg-light list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+                            <div class="check-4">
+                                <input type="checkbox" id="pending-appeal" name="pending-appeal">
+                                <label for="pending-appeal">&nbsp;Pending appeal</label>
+                            </div>
+                            <span class="ckeck-number-4">0</span>
                         </div>
 
 
@@ -153,47 +173,51 @@
                 </div>
 
                 <!-- Quote Check -->
-                <a href="#submenu2" data-toggle="collapse" aria-expanded="false"
-                    class="bg-light list-group-item list-group-item-action flex-column align-items-start">
+                <a href="#" class="item bg-light list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-start align-items-center">
                         <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M1.7478 10.791H4.8418L6.9038 6.666V0.479004H0.716797V6.666H3.8108L1.7478 10.791ZM9.9978 10.791H13.0918L15.1538 6.666V0.479004H8.9668V6.666H12.0608L9.9978 10.791Z"
                                 fill="#3E4756" />
                         </svg>
-                        <span class="menu-collapsed">Quote Check</span>
+                        <span class="menu-collapsed">&nbsp;&nbsp;Quote Check</span>
                     </div>
                 </a>
                 <!-- Table of authorities -->
-                <a href="#" class="bg-light list-group-item list-group-item-action">
+                <a href="#" class="item bg-light list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-start align-items-center">
                         <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M0.686035 9.57006H4.81104V5.44506H0.686035V9.57006ZM0.686035 14.7261H4.81104V10.6011H0.686035V14.7261ZM0.686035 4.41406H4.81104V0.289062H0.686035V4.41406ZM5.84204 9.57006H18.217V5.44506H5.84204V9.57006ZM5.84204 14.7261H18.217V10.6011H5.84204V14.7261ZM5.84204 0.289062V4.41406H18.217V0.289062H5.84204Z"
                                 fill="#3E4756" />
                         </svg>
-                        <span class="menu-collapsed">Table os authorities</span>
+                        <span class="menu-collapsed">&nbsp;&nbsp;Table os authorities</span>
                     </div>
                 </a>
-                <!-- Other CIties -->
-                <a href="#" class="bg-light list-group-item list-group-item-action">
+                <!-- Other Cities -->
+                <a href="#" class="item bg-light list-group-item list-group-item-action">
                     <div class="d-flex w-100 justify-content-start align-items-center">
                         <svg width="19" height="15" viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M5.84066 11.681L1.54066 7.381L0.0766602 8.835L5.84066 14.599L18.2157 2.225L16.7667 0.770996L5.84066 11.681Z"
                                 fill="#3E4756" />
                         </svg>
-                        <span class="menu-collapsed">Other cities</span>
+                        <span class="menu-collapsed">&nbsp;&nbsp;Other cities</span>
                     </div>
                 </a>
+
                 <!-- Collapse Button -->
-                <a href="#" data-toggle="sidebar-colapse"
-                    class="bg-light list-group-item list-group-item-action d-flex align-items-center">
-                    <div class="d-flex w-100 justify-content-start align-items-center">
-                        <span id="collapse-icon" class="fa fa-2x mr-3"></span>
-                        <span id="collapse-text" class="menu-collapsed">Collapse</span>
-                    </div>
-                </a>
+                <div data-toggle="sidebar-colapse" class="button_collapse d-flex align-items-end justify-content-end">
+                    <button class="border-0 bg-light">
+                        <svg id="collapse-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M17.6831 0.612793H14.7831V17.3578H17.6831V0.612793ZM6.6301 6.12579H12.9631V11.8428H6.6301V15.0068L0.00610352 8.9828L6.6301 2.95879V6.12579Z"
+                                fill="#3E4756" />
+                        </svg>
+                    </button>
+                </div>
+
             </div><!-- sidebar-container END -->
 
             <!-- MAIN -->
